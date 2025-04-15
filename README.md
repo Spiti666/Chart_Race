@@ -2,6 +2,10 @@
 
 Diese Anwendung visualisiert die Punkteentwicklung eines Bundesliga-Tippspiels für die Saison 2023/2024 als interaktives Balkenrennen.
 
+## Demo
+
+![Bundesliga Tippspiel Animation](chrome_HNyStgbzut.mp4)
+
 ## Funktionen
 
 - Anzeige der Punkteentwicklung von 8 Spielern über 34 Bundesliga-Spieltage
