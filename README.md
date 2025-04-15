@@ -4,7 +4,8 @@ Diese Anwendung visualisiert die Punkteentwicklung eines Bundesliga-Tippspiels f
 
 ## Demo
 
-![Bundesliga Tippspiel Animation](chrome_HNyStgbzut.mp4)
+<video src="chrome_HNyStgbzut.mp4" controls="controls" autoplay="autoplay" muted="muted" width="640" height="360">
+</video>
 
 ## Funktionen
 
