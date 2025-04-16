@@ -5,7 +5,7 @@
 
 Interaktive Datenvisualisierung für den Punkteverlauf eines Bundesliga-Tippspiels über die gesamte Saison 2023/2024.
 
-![img](chrome_HNyStgbzut.mp4)
+![img](race.gif.gif)
 
 > **Hinweis:** Um die Animation auf GitHub anzuzeigen, sollte das Video in ein GIF konvertiert werden. Beispiel: `ffmpeg -i chrome_HNyStgbzut.mp4 -vf "fps=10,scale=800:-1" output.gif`
 
