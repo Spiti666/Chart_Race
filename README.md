@@ -1,35 +1,35 @@
 # Bundesliga Tippspiel 2023/2024 Visualisierung
 
-[![](https://img.shields.io/badge/Sprache-Deutsch-blue)](README.md)
-[![](https://img.shields.io/badge/Technologie-React-blue)](https://reactjs.org/)
+Diese Anwendung visualisiert die Punkteentwicklung eines Bundesliga-Tippspiels für die Saison 2023/2024 als interaktives Balkenrennen.
 
-Interaktive Datenvisualisierung für den Punkteverlauf eines Bundesliga-Tippspiels über die gesamte Saison 2023/2024.
+## Demo
 
-![img](race.gif.gif)
+![Bundesliga Tippspiel Animation](race.gif)
 
-> **Hinweis:** Um die Animation auf GitHub anzuzeigen, sollte das Video in ein GIF konvertiert werden. Beispiel: `ffmpeg -i chrome_HNyStgbzut.mp4 -vf "fps=10,scale=800:-1" output.gif`
+## Funktionen
 
-## Features
-
-- **Animiertes Balkenrennen** zeigt die Punkteentwicklung von 8 Spielern über 34 Bundesliga-Spieltage
-- **Interaktive Steuerelemente** zum Abspielen, Pausieren und Zurücksetzen der Animation
-- **Anpassbare Geschwindigkeit** (langsam, normal, schnell)
-- **Manueller Modus** zur Navigation zwischen einzelnen Spieltagen
-- **Top-Performer Hervorhebung** für jeden Spieltag
-- **Farbkodierung** für einfache Spieleridentifikation
+- Anzeige der Punkteentwicklung von 8 Spielern über 34 Bundesliga-Spieltage
+- Steuerelemente zum Abspielen, Pausieren und Zurücksetzen der Animation
+- Einstellung der Animationsgeschwindigkeit (langsam, normal, schnell)
+- Manuelle Navigation zwischen einzelnen Spieltagen
+- Hervorhebung des Top-Performers für jeden Spieltag
+- Farbkodierung für jeden Spieler
 
 ## Technologien
 
-- **React** mit TypeScript für die UI-Komponenten
-- **Framer Motion** für flüssige Animationen
-- **Tailwind CSS** für das responsive Design
-- **Vite** als Build-Tool
+Dieses Projekt wurde mit folgenden Technologien erstellt:
 
-## Schnellstart
+- Vite
+- TypeScript
+- React
+- Tailwind CSS
+- Framer Motion für Animationen
+
+## Entwicklung
 
 Voraussetzung: Node.js & npm müssen installiert sein.
 
-```bash
+```sh
 # Installation der Abhängigkeiten
 npm install
 
@@ -37,28 +37,12 @@ npm install
 npm run dev
 ```
 
-## Datenstruktur
-
-Die Punktedaten sind in einer strukturierten Form gespeichert:
-
-- Jeder Spieler hat eine eindeutige Farbkodierung
-- Punkte werden für alle 34 Spieltage erfasst
-- Rangänderungen werden live visualisiert
-
 ## Build
 
-```bash
+```sh
 # Produktionsbuild erstellen
 npm run build
 
 # Vorschau des Builds
 npm run preview
 ```
-
-## Customization
-
-Die Animation kann über verschiedene Parameter angepasst werden:
-- Geschwindigkeit der Animation
-- Start- und Endpunkt der Zeitlinie
-- Farbgebung der Balken
-- Hervorhebung bestimmter Spieler
