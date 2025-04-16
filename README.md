@@ -1,10 +1,10 @@
 # Bundesliga Tippspiel 2023/2024 Visualisierung
 
+<div align="center">
+  <img src="./race.gif" width="80%" alt="Bundesliga Tippspiel Animation" style="max-width: 800px;">
+</div>
+
 Diese Anwendung visualisiert die Punkteentwicklung eines Bundesliga-Tippspiels für die Saison 2023/2024 als interaktives Balkenrennen.
-
-## Demo
-
-<img src="./race.gif" width="640" alt="Bundesliga Tippspiel Animation">
 
 ## Funktionen
 
