@@ -4,6 +4,9 @@ import path from "path";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
+  // ---> HIER DIE FEHLENDE ZEILE EINFÜGEN <---
+  base: '/Chart_Race/',
+  // -----------------------------------------
   server: {
     host: "::",
     port: 8080,
