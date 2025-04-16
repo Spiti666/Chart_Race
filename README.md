@@ -4,7 +4,7 @@ Diese Anwendung visualisiert die Punkteentwicklung eines Bundesliga-Tippspiels f
 
 ## Demo
 
-![Bundesliga Tippspiel Animation](race.gif)
+<img src="./race.gif" width="640" alt="Bundesliga Tippspiel Animation">
 
 ## Funktionen
 
